@@ -1,0 +1,10 @@
+CREATE TABLE Regiao(
+	RegiaoID INT IDENTITY(1, 1) NOT NULL,
+	Descricao VARCHAR(100) NOT NULL,
+	SiglaRegiao CHAR(2) NOT NULL,
+	CONSTRAINT PK_Regiao PRIMARY KEY(RegiaoID)
+)
+GO
+
+
+
