@@ -1,0 +1,3 @@
+SELECT UFID FROM UnidadesFederacao
+WHERE UFID = 1
+GO
